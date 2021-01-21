@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background: url("images/background.jpg");
+    background-size: auto 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pokemon-choices {
+    width: 100px;
+    float: left;
+}
+
+.computer{
+    float: right;
+}
+
+.pokemon-choice {
+    width: 60px;
+    display: block;
+    padding: 10px;
+}
+
+.pokemon-choice:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.pokemon-choice:hover{
+    cursor: pointer;
+    background: darkgrey;
+    border-radius: 50%;
+}
+
+.pokemon-choice-computer{
+    width: 60px;
+    display: block;
+    padding: 10px;
+}
+
+.arena{
+    background: rgba(255,255,255,0.3);
+    border: 3px solid white;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 50px calc(50% - 200px);
+}
+
+#playerScore{
+    text-align: center;
+}
+
+#computerScore{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+}
+
+#playerPokemon{
+    width: 60px;
+    display: block;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+#computerPokemon{
+    width: 60px;
+    display: block;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.column{
+    float: left;
+    width: 200px;
+    margin-top: 130px;
+}

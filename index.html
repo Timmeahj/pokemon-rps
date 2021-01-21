@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pokémon minigame</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/pokeball.svg">
+</head>
+<body>
+	<div class="pokemon-choices">
+		<h3 class="player">
+			Player
+		</h3>
+		<div class="pokemon-choice" >
+			<img src="images/bulbasaur.svg" alt="" id="bulbasaur">
+		</div>
+		<div class="pokemon-choice" >
+			<img src="images/charmander.svg" alt="" id="charmander">
+		</div>
+		<div class="pokemon-choice" >
+			<img src="images/squirtle.svg" alt="" id="squirtle">
+		</div>
+	</div>
+	<div class="pokemon-choices computer">
+		<h3 class="player">
+			Computer
+		</h3>
+		<div class="pokemon-choice-computer" >
+			<img src="images/bulbasaur.svg" alt="">
+		</div>
+		<div class="pokemon-choice-computer" >
+			<img src="images/charmander.svg" alt="">
+		</div>
+		<div class="pokemon-choice-computer" >
+			<img src="images/squirtle.svg" alt="">
+		</div>
+	</div>
+
+	<div class="arena">
+		<div class="column">
+			<div id="playerScore">0</div>
+			<div><img src="images/bulbasaur.svg" id="playerPokemon"></div>
+		</div>
+		<div class="column">
+			<div id="computerScore">0</div>
+			<div><img src="images/bulbasaur.svg" id="computerPokemon"></div>
+		</div>
+		<div id="result">Choose your pokemon!</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
